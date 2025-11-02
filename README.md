@@ -1,3 +1,5 @@
 This project was completed as part of an online assessment focused on simulating the core logic of an elevator control system. The primary objective was to design a simplified, yet fully functional, model that captures the necessary behaviors of a single elevator responding to user requests.
+
 The elevator tracks its current floor and direction, processes and adds requests to queues, and determines the next floor based on direction priority. The elevator continues upward or downward when possible and only reverses when there are no remaining requests in the direction it is currently traveling. Requests on the current floor are given the highest priority and evaluated immediately. 
+
 To maintain clarity and focus on core logic, several advanced features were intentionally excluded from this implementation. These include timing mechanisms, multiple elevators operating in parallel, and emergency stop handling. By omitting these elements, this project remains concise and ideal for demonstrating fundamental request prioritization.
